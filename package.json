@@ -1,0 +1,14 @@
+{
+  "name": "@beepo/monorepo",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": "https://github.com/hyp3rflow/beep.git",
+  "author": "hyperflow <hyperflow@kakao.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "packageManager": "yarn@3.2.0"
+}
