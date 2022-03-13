@@ -25,6 +25,7 @@
     "eslint-plugin-react": "^7.29.3",
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.5.1",
+    "twemoji": "^14.0.0",
     "vite": "^2.8.0"
   }
 }

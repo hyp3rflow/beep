@@ -502,6 +502,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.5.1"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:f03cd12c57d6a8e3349302de4724cdf39c1c3883c2fc74bea43a9538684364ad59ee7d378f8400bc440880e1d96ded53146ea5e69ac68bd652f42267188f74c7#npm:17.0.2"],\
+            ["twemoji", "npm:14.0.0"],\
             ["vite", "virtual:f03cd12c57d6a8e3349302de4724cdf39c1c3883c2fc74bea43a9538684364ad59ee7d378f8400bc440880e1d96ded53146ea5e69ac68bd652f42267188f74c7#npm:2.8.6"]\
           ],\
           "linkType": "SOFT"\
@@ -2511,6 +2512,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["fs-extra", [\
+        ["npm:8.1.0", {\
+          "packageLocation": "./.yarn/cache/fs-extra-npm-8.1.0-197473387f-bf44f0e6ce.zip/node_modules/fs-extra/",\
+          "packageDependencies": [\
+            ["fs-extra", "npm:8.1.0"],\
+            ["graceful-fs", "npm:4.2.9"],\
+            ["jsonfile", "npm:4.0.0"],\
+            ["universalify", "npm:0.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["fs-minipass", [\
         ["npm:2.1.0", {\
           "packageLocation": "./.yarn/cache/fs-minipass-npm-2.1.0-501ef87306-1b8d128dae.zip/node_modules/fs-minipass/",\
@@ -3146,6 +3159,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["json5", "npm:2.2.0"],\
             ["minimist", "npm:1.2.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["jsonfile", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/jsonfile-npm-4.0.0-10ce3aea15-6447d6224f.zip/node_modules/jsonfile/",\
+          "packageDependencies": [\
+            ["jsonfile", "npm:4.0.0"],\
+            ["graceful-fs", "npm:4.2.9"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/jsonfile-npm-5.0.0-be63f5e054-e0ecff572d.zip/node_modules/jsonfile/",\
+          "packageDependencies": [\
+            ["jsonfile", "npm:5.0.0"],\
+            ["graceful-fs", "npm:4.2.9"],\
+            ["universalify", "npm:0.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4373,6 +4405,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["twemoji", [\
+        ["npm:14.0.0", {\
+          "packageLocation": "./.yarn/cache/twemoji-npm-14.0.0-62a3bd71f9-00cbd4e673.zip/node_modules/twemoji/",\
+          "packageDependencies": [\
+            ["twemoji", "npm:14.0.0"],\
+            ["fs-extra", "npm:8.1.0"],\
+            ["jsonfile", "npm:5.0.0"],\
+            ["twemoji-parser", "npm:14.0.0"],\
+            ["universalify", "npm:0.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["twemoji-parser", [\
+        ["npm:14.0.0", {\
+          "packageLocation": "./.yarn/cache/twemoji-parser-npm-14.0.0-9cf535117a-8eede69cf7.zip/node_modules/twemoji-parser/",\
+          "packageDependencies": [\
+            ["twemoji-parser", "npm:14.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["type-check", [\
         ["npm:0.4.0", {\
           "packageLocation": "./.yarn/cache/type-check-npm-0.4.0-60565800ce-ec688ebfc9.zip/node_modules/type-check/",\
@@ -4430,6 +4484,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["unique-slug", "npm:2.0.2"],\
             ["imurmurhash", "npm:0.1.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["universalify", [\
+        ["npm:0.1.2", {\
+          "packageLocation": "./.yarn/cache/universalify-npm-0.1.2-9b22d31d2d-40cdc60f6e.zip/node_modules/universalify/",\
+          "packageDependencies": [\
+            ["universalify", "npm:0.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
